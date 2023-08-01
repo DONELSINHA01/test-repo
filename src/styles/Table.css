@@ -1,0 +1,97 @@
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 66.11%;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: light;
+    border-spacing: 40px;
+    
+    
+  }
+  
+  
+  .table {
+    box-shadow: 0 0 0 2px  #F4F5F7;
+  }
+  table thead{
+    font-family:"Inter-Regular", Helvetica;
+    font-size: 14px;
+    border-radius: 16px;
+    
+    
+    
+  }
+.table tbody tr{
+    height: 53px;
+    color: #1F2937;
+    text-align: left;
+    
+}
+
+
+.table td{
+  
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  
+
+.table-head{
+    background-color: #F4F5F7;
+    height: 40px;
+    color: #4B5563;
+    text-align: left;
+    font-size: 12px;
+    
+
+}
+
+.pagination{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 16%;
+  
+
+}
+
+.status-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-head{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.frame p{
+  margin: 0;
+}
+/* .table td img{
+  margin-left: 5px;
+} */
+
+.description{
+  
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5; 
+  overflow: hidden;
+  
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-logo img {
+  animation: rotate 10s linear infinite; /* Add this line to enable the rotation animation */
+}

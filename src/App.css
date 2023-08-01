@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: 'Inter', Helvetica;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.drp1 {
+  display: inline-block;
+  padding: 0 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #4B5563;
+  font-size: 16px;
+  
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.ant-select-selection {
+  
+
+}
+
+
+
+
+
+/* Optional: Adjust the dropdown arrow appearance */
+.drp1::after {
+  content: "▼";
+  margin-left: 5px;
+}
+
+.dropdown1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-heading{
+
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 66.11%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.select1{
+  position: relative;
+ 
+}
+.special-svg1{
+  position: absolute;
+  z-index: +1;
+  margin-left: 3px;
+  top: 104px;
+}
+.select2{
+  position: relative;
+  
+}
+.special-svg2{
+  position: absolute;
+  z-index: +1;
+  margin-left: 1px;
+  top: 103px;
+
+}
